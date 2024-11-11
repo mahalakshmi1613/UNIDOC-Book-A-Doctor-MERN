@@ -1,0 +1,233 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+  }
+  .header {
+    background-color: #E7E7FC;
+    color: #283d9a;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  .container h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  .doctor-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .doctor-card {
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: left;
+  }
+  .doctor-card h3 {
+    margin-top: 0;
+    color: #283d9a;
+
+ .star{
+    content: "\2605"; /* Unicode for filled star */
+    color: #f0c330;
+    font-size: 2em;
+    padding: 0 5px
+ }
+  }
+  .doctor-card p {
+    color: #666;
+  }
+  .login-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #283d9a;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  .login-btn:hover {
+    background-color: #cacafc;
+    color: #283d9a;
+  }
+ /*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}*/
+.search-container {
+  font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0;
+   background-color: #f4f4f4;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.perform-search {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color:#cacafc;
+    color:#05103f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.perform-search:hover {
+    background-color: rgb(222, 222, 222);
+}
+.aboutus {
+  width: 90%;
+  padding-left: 50px;
+}
+.section {
+  margin-bottom: 2px;
+}
+h2 {
+  color: #283d9a;
+  border-bottom: 2px solid #283d9a;
+  padding-bottom: 5px;
+}
+.why{
+color: #283d9a;
+font-size: large;
+}
+#copyright{
+  background-color:#cacafc ;
+  padding: 50px;
+  padding-bottom: 50px;
+}
+.copy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-text-container {
+  display: inline-flex;
+  align-items: center;  
+}
+
+.logo {
+  width: 60px; 
+  height: 60px;
+  margin-right: 10px; 
+  border-radius: 50%; 
+}
+
+.text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.5rem; 
+  color:#05103f;
+  font-weight: bolder;
+}
+.menu-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* The three lines of the hamburger menu */
+.line {
+  background-color: #333;
+  height: 5px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/* Toggle the menu when clicked */
+.menu-container.open .line:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 8px;
+}
+
+.menu-container.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-container.open .line:nth-child(3) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -8px;
+}
+
+/* Navigation menu (hidden by default) */
+.nav-menu {
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 25%;
+  text-align: center;
+}
+
+.nav-menu a {
+  color: #283d9a;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  background-color: #cacafc;
+    color: #283d9a;
+}
+
+.menu-container.open + .nav-menu {
+  display: block;
+}
+.goToDoctorProfile{
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color:#283d9a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.goToDoctorProfile:hover{
+  background-color:#cacafc;
+}
+
+
+  

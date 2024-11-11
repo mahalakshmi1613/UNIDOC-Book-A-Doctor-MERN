@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(9, 13, 98);
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg\ about.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-details-page {
+    background-color: rgba(235, 220, 247, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.doctor-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #300e48;
+}
+
+.doctor-info {
+    flex: 1;
+    color: #333;
+}
+
+.name {
+    font-size: 2em;
+    color: #300e48;
+    margin-bottom: 5px;
+}
+
+.specialization {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rating {
+    font-size: 1.1em;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.experience, .location, .availability, .email, .phone, .fee {
+    font-size: 1em;
+    color: #4e3434;
+    margin-bottom: 8px;
+}
+
+.fee {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.book-appointment-btn{
+    background-color: #65596f;
+    color: #fff;
+    border: none;
+    padding: 16px 32px; /* Increased padding for larger button */
+    border-radius: 5px;
+    font-size: 1.2em; /* Increased font size for bigger button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px auto 0; /* Center the button horizontally and add margin at the top */
+    display: inline-block ; /* Makes the button take up full width of its container */
+    text-align: center;
+    max-width: 200px; /* Optional: limits the maximum width of the button */
+}
+
+.book-appointment-btn{
+    background-color: #53248e;
+}

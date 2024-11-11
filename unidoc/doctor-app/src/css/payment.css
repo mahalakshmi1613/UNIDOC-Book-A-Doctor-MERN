@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../images/background.jpeg");
+    background-blend-mode: overlay;
+}
+  
+  .payment-container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .payment-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .payment-method label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: top 50px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6078dc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1b1bc1;
+  }
+  input{
+    padding-bottom: 20px;
+  }
+  .method{
+    padding-bottom: 30px;
+  }
+  input{
+    margin-bottom: 30px;
+  }
+  option{
+    margin-bottom: 30px;
+  }
